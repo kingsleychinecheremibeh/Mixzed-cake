@@ -1,0 +1,20 @@
+.pwa-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #E91E63;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  z-index: 1000;
+}
+
+.pwa-btn:hover {
+  background-color: #D81B60;
+  transform: scale(1.05);
+}
