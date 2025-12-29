@@ -19,10 +19,10 @@ function Navbar() {
 
       {/* Nav Links */}
       <ul className={isOpen ? 'nav-links open' : 'nav-links'}>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#testimonials">Reviews</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#hero" onClick={() => setIsOpen(false)}>Home</a></li>
+        <li><a href="#menu" onClick={() => setIsOpen(false)}>Menu</a></li>
+        <li><a href="#testimonials" onClick={() => setIsOpen(false)}>Reviews</a></li>
+        <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
       </ul>
     </nav>
   );
